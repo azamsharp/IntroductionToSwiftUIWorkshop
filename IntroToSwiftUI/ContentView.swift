@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let animals = ["🦓", "🦒", "🦛", "🐂", "🐅", "🐇"]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(animals, id: \.self) { animal in
+                
+                NavigationLink(
+                    destination: AnimalDetailView(animal: animal),
+                    label: {
+                        Text(animal)
+                            .font(.system(size: 75))
+                    })
+                
+            }
+            
+            .navigationTitle("Animals")
+        }
     }
 }
 

@@ -11,6 +11,9 @@
 		8D74634225D869250062CC75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D74634125D869250062CC75 /* ContentView.swift */; };
 		8D74634425D869260062CC75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D74634325D869260062CC75 /* Assets.xcassets */; };
 		8D74634725D869260062CC75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D74634625D869260062CC75 /* Preview Assets.xcassets */; };
+		8D74635025D86CF40062CC75 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D74634F25D86CF40062CC75 /* AnimalDetailView.swift */; };
+		8D74635325D86DF20062CC75 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D74635225D86DF20062CC75 /* CounterView.swift */; };
+		8D74635625D8757C0062CC75 /* EnvDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D74635525D8757C0062CC75 /* EnvDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		8D74634325D869260062CC75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D74634625D869260062CC75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8D74634825D869260062CC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D74634F25D86CF40062CC75 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		8D74635225D86DF20062CC75 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		8D74635525D8757C0062CC75 /* EnvDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				8D74634325D869260062CC75 /* Assets.xcassets */,
 				8D74634825D869260062CC75 /* Info.plist */,
 				8D74634525D869260062CC75 /* Preview Content */,
+				8D74634F25D86CF40062CC75 /* AnimalDetailView.swift */,
+				8D74635225D86DF20062CC75 /* CounterView.swift */,
+				8D74635525D8757C0062CC75 /* EnvDemo.swift */,
 			);
 			path = IntroToSwiftUI;
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 			files = (
 				8D74634225D869250062CC75 /* ContentView.swift in Sources */,
 				8D74634025D869250062CC75 /* IntroToSwiftUIApp.swift in Sources */,
+				8D74635025D86CF40062CC75 /* AnimalDetailView.swift in Sources */,
+				8D74635325D86DF20062CC75 /* CounterView.swift in Sources */,
+				8D74635625D8757C0062CC75 /* EnvDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
